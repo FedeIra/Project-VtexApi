@@ -1,0 +1,15 @@
+export type Category = {
+  id: number,
+  name: string,
+  fatherCategoryId: number | null,
+  title: string,
+  description: string | null,
+  keyWords: string,
+  showInStoreFront: boolean,
+  showBrandFilter: boolean,
+  isActive: boolean,
+  activeStoreFrontLink: boolean,
+  globalCategoryId: number,
+  stockKeepingUnitSelectionMode: string,
+  score: number | null,
+}
